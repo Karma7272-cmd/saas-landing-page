@@ -1,0 +1,11 @@
+const Footer = () => {
+  return (
+    <footer className="py-6 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto text-center text-gray-500">
+        <p>&copy; {new Date().getFullYear()} SaaSify. All rights reserved.</p>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
